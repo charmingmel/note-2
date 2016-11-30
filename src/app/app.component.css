@@ -6,3 +6,11 @@
 .note-list {
   border-left: 2px solid #ccc;
 }
+
+.empty {
+  padding-left: 20px;
+}
+
+.empty .glyphicon {
+  font-size: 80px;
+}

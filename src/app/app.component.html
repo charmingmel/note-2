@@ -1,7 +1,7 @@
 <header class="row">
   <nav class="navbar navbar-inverse">
     <div class="navbar-header">
-      <a href="/" class="navbar-brand">Note 2 App</a>
+      <a href="/" class="navbar-brand">Note 2 App Built with Angular 2</a>
     </div>
   </nav>
 </header>
@@ -24,12 +24,12 @@
     </form>
   </div>
   <div class="col-sm-8 note-list">
-    <h3>Note list</h3>
-    <ul class="list-group" *ngFor="let note of allNotes">
+    <h3>Note list</h3><hr>
+    <ul class="list-group" *ngFor="let note of allNotes; let i = index;">
       <li class="list-group-item">
         <h3 *ngIf="!editing">{{note.title }}
           <button type="button" class="btn btn-default btn-xs pull-right"
-           aria-label="trash">
+          (click)="deleteNote(note, i)"  aria-label="trash">
             <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
           </button>
           <button type="button" class="btn btn-default btn-xs pull-right"
@@ -47,5 +47,9 @@
         </div>
       </li>
     </ul>
+    <div class="empty" *ngIf="!allNotes.length">
+      <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
+      <h3>Empty list. Create a Note</h3>
+    </div>
   </div>
 </div>
