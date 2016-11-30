@@ -1,6 +1,8 @@
-# Angular2App
+# Note 2 App 
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
+Note 2 app is a simple note taking app built with angular 2 simply to get myself acquainted with Angular 2.
+
+This practice project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
