@@ -5,7 +5,10 @@ Note 2 app is a simple note taking app built with angular 2 simply to get myself
 This practice project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. 
+After running the app, you should be able to see this ![landing page](https://github.com/charmingmel/note-2/tree/master/src/assets/img/landingpage.png)
+
+
 
 ## Code scaffolding
 
